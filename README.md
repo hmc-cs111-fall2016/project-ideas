@@ -119,4 +119,4 @@ Here are some suggestions for critiques:
 - [ ] Think / come up with ideas.
 - [ ] Write responses in each of the four files.
 - [ ] Submit your work.
-- [ ] Comment on your [critique partners'][Teams] work.
+- [ ] Comment on your [critique partner's][Teams] work.
