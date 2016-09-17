@@ -79,6 +79,7 @@ making language design decisions), as opposed to "systems" aspects of the
 project (e.g., implementing a complicated semantics that doesn't require a lot
 of language design)?_
 
+I think a lot of the time, the person would have to make a lot of design decisions. I am sure that there is a lot of support in implementing the kind of stuff I want (like workflows, outlines). 
 
 ### Scope
 _How big an idea is this? How ambitious is this project?_
@@ -89,3 +90,6 @@ I think this project is on the medium side of ambitiousness. We don't have to ge
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
 
+This project is good because one would be able to make a lot of design decisions. That includes what we should implement as features and how we do it so that the user can naturally make structures.
+
+I think there might be a few flaws that come up in doing this project. One is the desire to include a lot of features as all other musci programming languages have done. Putting in a lot of tools for the musician would be really nice, but at the same time would take away from the main point of the language I want to create.
