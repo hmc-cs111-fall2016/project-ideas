@@ -6,13 +6,14 @@ good way to meet their needs.
 
 
 ### What's the need?
-_What need is met by your idea? Who are you helping? What is that person's
-experience like now? What would their experience be like if you could help 
-them?_
+_Organization through Excel. Right now, many groups use Excel for their organization,
+such as to-do lists, but it's hard to have Excel reorganize without dragging a bunch
+of cells around._
 
 
 ### Why a language?
-_Why is a DSL appropriate for your user(s)? How does it address the need?_
+_Users already use Excel, so if we can interface with that and make it better, it will
+hopefully be the most natural._
 
 
 ### Why you?
