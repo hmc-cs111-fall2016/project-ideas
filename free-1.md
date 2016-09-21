@@ -4,16 +4,34 @@
 This section describes who the project would serve and why a language might be a
 good way to meet their needs.
 
-
 ### What's the need?
 _What need is met by your idea? Who are you helping? What is that person's
 experience like now? What would their experience be like if you could help 
 them?_
 
+This project is designed to serve individuals who need to schedule meetings
+among a large group.
+
+Currently the de-facto standards for scheduling are one
+of the following two methods:
+ * Everyone send out their availability for a certain time and a leader
+picks the times that seem to work best for a plurality.
+ * Everyone uses some software, such as a WhenIsGood&#8482; or WhenToMeet&#8482;
+and choses a binary yes/no for each time slot.
+
+If I was able to help them, users would be able to specify, in a way that feels
+natural, their availability and preferences.  Hopefully this can reduce either
+the work of an individual (who must compile the results of an email) or the
+repetition inherent in painting over the same boxes for pairs of weeks when
+using a WhenIsGood&#8482;.
 
 ### Why a language?
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
 
+Since a large part of scheduling involves individuals
+expressing their constraints (and hopefully preferences as well), a language
+might be a good fit, since it can be tailored to allow this expressiveness
+in a way that a simple calendar might not.
 
 ### Why you?
 _What excites you about this idea? How did you come up with it?_
