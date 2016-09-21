@@ -182,6 +182,6 @@ There are not _that_ many problems which involve finding homomorphisms, and most
 of them seem to be for beginners.  Therefore, it might not be worth it for most
 people to learn an entire new language.  Moreover, as someone new to abstract
 algebra, I feel like it would be more helpful to think of the bijection on my own
-than to use a computer sidekick.  Also, it there are some groups that would be
+than to use a computer sidekick.  Also, there are some groups that would be
 quite difficult to encode, like the set of rotations in 3-space or the group
 generating by composing paths on a torus.
