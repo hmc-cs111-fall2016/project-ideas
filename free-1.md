@@ -114,7 +114,7 @@ language, and it is not necessarily the most intuitive for those who have
 never programmed before.
 
 Another interesting program I found, which is much simpler than Processing and
-has a very intuitive GUI IS Kaleidoscope, featured on Google's [Made with Code](https://www.madewithcode.com/projects/art).
+has a very intuitive GUI is Kaleidoscope, featured on Google's [Made with Code](https://www.madewithcode.com/projects/art).
 It allows the user to drag and drop shapes and select the animation they want from 
 a drop down menu. Unlike Processing, the range of features is very limited and there 
 isn't too much customization the user can do. 
@@ -136,12 +136,48 @@ making language design decisions), as opposed to "systems" aspects of the
 project (e.g., implementing a complicated semantics that doesn't require a lot
 of language design)?_
 
+I think around 50 percent of the time would be spent on desigining the language.
+I feel like it will be fairly simple to define terms of the lanugage, especially
+because coding languages for visual art already exist and I would be able to model
+aspects of my language after those. However, I think I'll need to make important 
+design decisions on how the the code can be organized from the user end (i.e. 
+creating classes or separate files). I also think I'll need to decide how simple
+the language will be, either by limiting the vocabulary or by limiting the
+parameters for different objects.
+
+The other half of the time will be spent figuring out how to parse and execute 
+the code, figuring out how the shapes and animations will be represented on the 
+screen. I'll need to do some research on which language would be the best one 
+to implement my DSL and determine what can feasibly be animated. I'll also 
+need to decide what kind of user interface to create to allow the user to see
+the result of their code.
+
 
 ### Scope
 _How big an idea is this? How ambitious is this project?_
+
+I would say this project is quite ambitious, particularly for me because I've
+never done my own coding project before and I don't feel exceptionally proficient
+in any programming language. Also, I don't particularly have much knowledge in this
+domain, so it would require a lot of initial research on my part to figure out what
+would be feasible to implement. So it feels like a big idea because it requires a 
+lot of work both in desigining the language and designing the interface for the user 
+to execute the language, but I think there will be a lot of resources that would 
+help me carry out this project.
 
 
 ### Benefits and drawbacks
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
 
+In the process of fleshing out this idea, I realized that Processing
+language already has a lot of the characteristics that I wanted to have for my
+language. So I question whether this DSL would be a productive thing to make,
+since people who are interested in this domain can just learn Processing. However,
+as a learning experience, I think it would be fun and very feasible to implement,
+since I can use existing DSL's like Processing and try to replicate the feautures and
+possibly add new ones. A potential possibiliy is that I can create an internal DSL for
+Processing so that it can help people who are already interested and invested in the 
+domain. So all in all, I'm not sure I'll stick with this original idea because I feel 
+like I should create something more novel, but the idea of creating a DSL for
+Processing is now very intriguing to me. 
