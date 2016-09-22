@@ -60,10 +60,16 @@ aren't and conjecture why not. If so, describe them and provide links. How well
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
 
+[https://products.office.com/en-US/project?legRedir=true&CorrelationId=02728df8-8d42-4775-982e-bc55f2f1d4e3][Microsoft Projects] is a tool built in the early 2000s that uses cells to make the Gantt Charts. This resource does not exclusively focus on making Gantt charts.
+
+[https://www.smartsheet.com/][Smart Sheet] is another tool that includes the ability to make Gantt charts, although it is not focused on making Gantt charts.
+
+Overall, there are programs that aren't languages like C++ or Python that do the work. It makes some sort of sense to have the programs stored in cells, but it would be interesting to see if there are other ways to write the programs.
 
 ## The Project
 This section examines whether the idea makes for a good CS 111 project.
 
+I believe this has potential as a good CS 111 project. It would focus on making us make difficult design choices in trying to make Gantt charts, which have been around for a while, more intuitive.
 
 ### Suitability
 _If someone were to work on this project, what percentage of their time would be
@@ -72,12 +78,15 @@ making language design decisions), as opposed to "systems" aspects of the
 project (e.g., implementing a complicated semantics that doesn't require a lot
 of language design)?_
 
+I am not sure about this yet, but I supppose it would be 50/50 roughly. A lot of design choices have to be made, but at the same time, it will take time to implement all of the things I've mentioned and more.
 
 ### Scope
 _How big an idea is this? How ambitious is this project?_
 
+It is fairly moderately sized. It is not too ambitious as it just focuses on making one kind of chart, but may require a bit of work.
 
 ### Benefits and drawbacks
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
 
+It is a good idea for the design choices one has to make in making Gantt chart creation intuitive. However, it might not also be a good idea because it may be the case that using cells may in fact be the most intuitive way to build Gantt charts. In addition, people may believe that the time to learn a DSL in making Gantt charts may not be as useful as the time to learn a generic suite for projects.
