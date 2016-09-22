@@ -118,5 +118,5 @@ Here are some suggestions for critiques:
 [generating ideas][ProjectGen].
 - [x] Think / come up with ideas.
 - [x] Write responses in each of the four files.
-- [ ] Submit your work.
+- [x] Submit your work.
 - [ ] Comment on your [critique partner's][Teams] work.

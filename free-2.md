@@ -12,15 +12,15 @@ experience like now? What would their experience be like if you could help
 them?_
 
 This DSL would allow people to have more control over how they buy and sell
-shares.  Currently, most people invest in the market over long-term periods. 
+shares.  Currently, most people invest in the market over long-term periods.
 Alternatively, they give their money to a hedge fund, who will buy shares for
 them.  These hedge funds use complicated algorithms to determine at what price to
 sell a stock, and how long it should be available for.  However, these techniques
 or not available to typical investors.  Also, the code is typically written in C
-for efficiency.  A DSL for the Stock Market would help people want to precisely
-control the timing and price of their shares but do not want to give their money
-to a hedge fund.  With this DSL they could create functions that react to the
-market to determine the best investment strategy. 
+for efficiency.  A DSL for the Stock Market would help people who want to
+precisely control the timing and price of their shares but do not want to give
+their money to a hedge fund.  With this DSL they could create functions that react
+to the market to determine the best investment strategy.
 
 ### Why a language?
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
@@ -88,7 +88,7 @@ difficult? What should be impossible or very difficult?_
 
 It should be easy to do anything specific to the domain, namely posting market
 and limit orders.  It should also be easy to encode simple investment strategies
-that depend on market prices.  It should also be easy to create many strategies,
+that depend on market prices.  It should be easy to create many strategies,
 switch between them, and apply different stocks to the same strategy.  Creating
 more complicated strategies, for example ones that involve machine learning, might
 be out of the scope of the domain, and could be difficult with this language.  In
@@ -138,7 +138,7 @@ _How big an idea is this? How ambitious is this project?_
 
 This idea is certainly bigger than the calendar DSL, and perhaps too big to be
 done in a semester.  Both the language and the systems part could balloon to be
-formidable tasks.  The systems part involves creating a secure way buy and sell
+formidable tasks.  The systems part involves creating a secure way to buy and sell
 stocks, which could get complicated.  It would be possible to have the DSL merely
 calculate what the user _should_ do, and leave the actual trading for the user,
 but that would defeat the purpose of making it fast.  An ideal possibility would

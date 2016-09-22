@@ -20,9 +20,8 @@ Originally, we were only about three feet away, so there should be a more
 efficient way of communicating.  We have found that when we knock on the wall
 adjoining our rooms, we can communicate.  So far, we have only used this to
 indicate that we are present, but hypothetically we could extend this mode of
-communication in to a DSL.  This would help us both communicate more efficiently. 
-If we employed this DSL, we could learn important information about each others'
-appetites or tiredness at an instant.
+communication in to a DSL.   If we employed this DSL, we could learn important
+information about each others' appetites or tiredness at an instant.
 
 ### Why a language?
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
@@ -39,16 +38,16 @@ because
 ### Why you?
 _What excites you about this idea? How did you come up with it?_
 
-I am interested by this idea because it will directly effect my quality of life. 
+I am interested by this idea because it will directly affect my quality of life.
 Some might think that this DSL is just a way to make people more lazy, but in my
-opinion, that is the purpose of all DSLs.  Programming languages so that humans
-don't have to go through the effort to think of their effort in binary or machine
-code, and similarly, this DSL would mean that we have to expend less energy doing
-routine tasks.  I came up with this idea as I was sitting at my desk and wanted to
-communicate with Ricky.  It seemed like their ought to be a way to get his tell
-and receive messages both immediately and in the comfort of my room.  However, the
-best I could muster was a sharp knock, alerting him that I had something relevant
-to say before I went next door.  If we had a DSL, we could have carried out the
+opinion, that is the purpose of all DSLs.  Programming languages exist so that
+humans don't have to go through the effort to think in binary or machine code, and
+similarly, this DSL would mean that we have to expend less energy doing routine
+tasks.  I came up with this idea as I was sitting at my desk and wanted to
+communicate with Ricky.  It seemed like their ought to be a way to send and
+receive messages both immediately and in the comfort of my room. However, the best
+I could muster was a sharp knock, alerting him that I had something relevant to
+say before I went next door.  If we had a DSL, we could have carried out the
 entire conversation through the wall.
 
 ### Domain
@@ -61,11 +60,14 @@ _How might the user interact with the language? What does programming look
 like? Why is this the right way to interact with the problem domain?_ 
 
 In this language, a program would look like a set of vocabulary (consisting of
-taps) strung together by a grammar that would convey the semantic model.  We would
-already have a set of primitives that would correspond to the most important words
-(perhaps hungry, tired, ready, etc).  There would also be intensifiers (very). 
-This is the best way to interact for our domain because it conserves energy and
-elicits an instance response.
+taps) strung together by a grammar that would convey the semantic model.  At its
+most basic form, we would have the primitives {Hoch, Pitzer, Fruizen, Homework,
+Come over, etc} and vocabulary to indicate time {5 min, 1 hour, tonight, when?,
+etc}.  We would also have ways to respond "yes" or "no".  Each of these words
+would correspond to a knock or slap of a set sound and duration. As we grow
+comfortable with the language, we can add new words that we see fit through normal
+conversations.  This is the best way to interact for our domain because it
+conserves energy and elicits an instance response.
 
 ### Operation (semantics)
 _What might happen when a program runs? How does a program interact with the
@@ -82,17 +84,17 @@ message.
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_
 
-It should be very easy to indicate the emotions that we choose as primitives of
-the language.  It should also be easy to indicate times like "in 10 minutes", or
-"at 1 pm", since these seem necessary for planning outings.  Ideally, it should
-also be possible to define new words for the language, but this would most easily
-be done through conversations outside of our language.  Therefore, I would not
-include creating new words as part of the DSL.  It should be very hard to engage
-in complicated, philosophical discussions.  If we wanted to, we could include the
-Vietnamese Tap Code to allow us to communicate in a different language, just as
-how you can include in-line assembly code in C.  This would make it possible to
-have more verbose conversations, but certainly quite difficult.  For basic
-purposes, this feature seems unnecessary.
+It should be very easy to glean what the message sender wants to do and when.  It
+should also be easy to indicate times like "in 10 minutes", or "at 1 pm", since
+these seem necessary for planning outings.  Ideally, it should also be possible to
+define new words for the language, but this would most easily be done through
+conversations outside of our language.  Therefore, I would not include creating
+new words as part of the DSL.  It should be very hard to engage in complicated,
+philosophical discussions.  If we wanted to, we could include the Vietnamese Tap
+Code to allow us to communicate in a different language, just as how you can
+include in-line assembly code in C.  This would make it possible to have more
+verbose conversations, but certainly quite difficult.  For basic purposes, this
+feature seems unnecessary.
 
 
 ### Related work
@@ -103,7 +105,7 @@ language? Are there parts of the language you think could be improved?_
 
 There are related modes of communication that involve tapping, like Morse Code or
 the Vietnamese Tap Code that American prisoners of war used to communicate between
-cell blocks.  However, I would argue that they are not really domain-specific. 
+cell blocks.  However, I would argue that they are not really domain-specific.
 Both these examples are merely translations from the alphabet into a sound, and it
 is possible to express any idea.  It is not easier to describe any particular
 domain per se using just Morse Code, so it is not domain specific (unless you
@@ -112,8 +114,9 @@ doesn't fit into our model of unambiguity, much like how we don't consider natur
 language to be a DSL.  Our dorm tap code would be an improvement because it would
 allow us to express our ideas more concisely than spelling out each letter
 individually.  I doubt that there are other DSLs analogous to this because the
-entire purpose of the language is to conserve energy; therefore, this domain is
-the least likely to go through the effort of defining the language.
+entire purpose of the language is to conserve energy; therefore, people affected
+by this language are the least likely to go through the effort of defining the
+language.
 
 ## The Project
 This section examines whether the idea makes for a good CS 111 project.
@@ -140,7 +143,7 @@ _How big an idea is this? How ambitious is this project?_
 This project has a pretty small scope.  There is a relatively small set of
 "crucial" information, and we could convert it to taps using an arbitrary map. 
 The grammar would also be relatively simple.  Both of these aspects seem like
-decisions we could make within an hour.  We could then test out the code an make
+decisions we could make within an hour.  We could then test out the code and make
 changes to the language as we see fit.  Since the scope is so small, and we have
 the aid of natural communication, I don't see this as a very ambitious project.
 

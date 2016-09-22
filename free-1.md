@@ -28,27 +28,26 @@ intuitive and efficient way.
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
 
 Some sort of automation would be helpful to expedite the process of adding
-class/meetings to your schedule, as I mentioned above.  A general purpose
-language would solve this problem, but would be much less intuitive for users. 
-With a DSL, you could create primitives like "daily" or "weekly" that would
-help bridge the gap between the code and the semantic model.  In addition, many
-people who might use this app might not be familiar with coding.  Therefore, it
-would be easier to introduce them to a smaller set of keywords and syntax that
-are specific to the use.  Also, you could build some underlying machinery into
-the DSL, for example a function that allows you to display the calendar.  This
-would be very hard to do in a general-purpose programming language, but
-hopefully with a DSL you could extract the details away into a primitive (An
-API would achieve the same result here, but would not be as useful for the
-reasons previously mentioned).
+classes/meetings to your schedule.  A general purpose language would solve this
+problem, but would be much less intuitive for users.  With a DSL, you could create
+primitives like "daily" or "weekly" that would help bridge the gap between the
+code and the semantic model.  In addition, many people who might use this app
+might not be familiar with coding.  Therefore, it would be easier to introduce
+them to a smaller set of keywords and syntax that are specific to the use.  Also,
+you could build some underlying machinery into the DSL, for example a function
+that allows you to display the calendar.  This would be very hard to do in a
+general-purpose programming language, but hopefully with a DSL you could extract
+the details away into a primitive (An API would achieve the same result here, but
+would not be as useful for the reasons previously mentioned).
 
 ### Why you?
 _What excites you about this idea? How did you come up with it?_
 
-I first heard of this idea during a coding interview, and it seemed like a very
-practical idea.  I am mostly interested in it because, as I was adding all of my
-classes to my schedule this year, I had to do many similar and tedious tasks. 
-For each event, after I specified the title, location, and start and end time,
-I had to:
+I first heard of this idea during a coding interview, and it seemed very
+practical.  I am mostly interested in it because, as I was adding all of my
+classes to my schedule this year, I had to do many similar and tedious tasks.  For
+each event, after I specified the title, location, and start and end time, I had
+to:
 
     1. Press "View More Options"
     2. Press Repeat -> Weekly
@@ -78,43 +77,41 @@ _How might the user interact with the language? What does programming look
 like? Why is this the right way to interact with the problem domain?_ 
 
 The user could have an object that corresponds to a calendar.  They could also
-create other objects called "events" and assign attributes to these events such
-as the start time, duration, location, description, and other features that
-Google Calendars offers.  To these features, a user could create object types
-that would correspond to abstract classes such as "class".  This could
-essentially be a list of characteristics that many events have in common, so
-that you don't have to type in the same attributes for each.  In addition, you
-could create more complicated ways to repeat an event.  For example, you might
-want a reminder "three days before the last business day of each month" to clock
-your hours, for example.  With a language, users could create this custom
-constraint that would resemble primitives like "daily" or "weekly", and assign
-it to different events.  This is the right way to interact with the problem
-domain because it allows enough flexibility but is automated enough.
+create other objects called "events" and assign attributes to these events such as
+the start time, duration, location, description, and other features that Google
+Calendars offers.  In addition to these features, a user could create object types
+that would correspond to abstract classes such as "meeting".  This could
+essentially be a list of characteristics that many events have in common, so that
+you don't have to type in the same attributes for each.  In addition, you could
+create more complicated ways to repeat an event.  For example, you might want a
+reminder "three days before the last business day of each month" to clock your
+hours, for example.  With a language, users could create this custom constraint
+that would resemble primitives like "daily" or "weekly", and assign it to
+different events.  This is the right way to interact with the problem domain
+because it allows enough flexibility but is automated enough.
 
 ### Operation (semantics)
 _What might happen when a program runs? How does a program interact with the
 user? What kinds of errors might occur, and how might they be communicated to
 the user?_
 
-I don't see this DSL as being especially interactive.  I imagine that each
-calendar is contained in a separate program, and when a program runs, the events
-are analyzed and a schedule viewer is generated.  Ideally this would not be a
-static image, and you would be able to toggle between modes like "daily" and
-"monthly", as you can with other calendars.  To change you calendar, you would
-edit the text file and rerun the program (though it would be cool to have
-real-time editing like in sbt).
-Some potential errors could include scheduling events whose durations don't make
-sense (e.g. 9:00am - 8:00am).  I would want the scheduler to display as many
-events as possible, but also make it clear that there is an error in the code. 
-Perhaps a dialog box above the calendar with a descriptive error message would
-do the trick.
+I imagine that each calendar is contained in a separate program, and when a
+program runs, the events are analyzed and a schedule viewer is generated.  Ideally
+this would not be a static image, and you would be able to toggle between modes
+like "daily" and "monthly", as you can with other calendars.  To change your
+calendar, you would edit the text file and rerun the program (though it would be
+cool to have real-time editing like in sbt). Some potential errors could include
+scheduling events whose durations don't make sense (e.g. 9:00am - 8:00am).  I
+would want the scheduler to display as many events as possible, but also make it
+clear that there is an error in the code.  Perhaps a dialog box above the calendar
+with a descriptive error message would do the trick.
 
 ### Expressiveness
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_
 
 It should be easy to create many different types of similar events and add them
-to a calendar.  It should also be easy to customize when in event repeats, even
+to a calendar.  It should also be easy to customize when an event repeats, even
 with some unusual requirements (like the example from above).  It should be
 difficult to do anything other than scheduling an event.  If the result of
 running a program is to display a schedule, then it seems like it would be very
@@ -169,7 +166,7 @@ of language design)?_
 This depends on how complicated of a schedule viewer you make.  For the most
 part, this project would be more "language" based.  It involves several design
 decisions, such as how to encode an event or an event type.  Also, ideally users
-could create new events or date ranges as is they were primitives, so this could
+could create new events or date ranges as if they were primitives, so this could
 involve interesting design decisions.  The biggest, and I think only significant
 "systems" aspect is the schedule viewer.  You could have multiple different
 modes (daily, weekly, etc), allow the users to customize the event appearance 
@@ -194,7 +191,7 @@ and is not a crucial feature.
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
 
-This could be a good project because could have an everyday use.  It would be
+This could be a good project because it could have an everyday use.  It would be
 convenient to have a more functional and automated scheduler than Google
 Calendar.  In addition, at a first glance it seems like a reasonably sized
 project.  If I have time, then I could continue to add features.  Also, it seems
