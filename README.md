@@ -114,9 +114,9 @@ Here are some suggestions for critiques:
    + Answer the questions about suitability, scope, etc. of the project.
 
 ## Tasks
-- [ ] Read the assignment, including the advice for 
+- [x] Read the assignment, including the advice for 
 [generating ideas][ProjectGen].
-- [ ] Think / come up with ideas.
-- [ ] Write responses in each of the four files.
-- [ ] Submit your work.
+- [x] Think / come up with ideas.
+- [x] Write responses in each of the four files.
+- [x] Submit your work.
 - [ ] Comment on your [critique partner's][Teams] work.
