@@ -106,7 +106,11 @@ project (e.g., implementing a complicated semantics that doesn't require a lot
 of language design)?_
 
 I think this is very much a problem about langauge design and not so implementation
-heavy.
+heavy, especially for just describing and searching up hands.  If we wanted to
+add features for analyzing hands I think that would increase the "system" aspects
+of the project by a large amount, so perhaps that would be better to not implement
+for a CS 111 project and just design how that part would work if we were to
+implement it.  I think it would still be very useful without analysis features.
 
 
 ### Scope
