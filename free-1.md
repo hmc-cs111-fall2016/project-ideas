@@ -70,7 +70,9 @@ A \or B
   B
 ```
 which would produce the following tree
+
 ![tree](/images/tree.png)
+
 This uses LaTeX syntax, such as backslashes to invoke certain symbols, which
 is familiar to many people who work with math.
 The structure is more easily readable for statements that stack (such as
