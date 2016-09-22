@@ -20,6 +20,7 @@ The visually impaired are currently able to use Braille!
 
 ### Why a language?
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
+
 A DSL is appropriate because by nature, it is domain specific, given that it is only learned / used by those who are blind or visually impaired (or those who work closely with the blind and visually impaired).
 It provides a language that is an abstraction of written human language and can be learned and used by the blind and visually impaired. It addresses the for users to understand human languages, and addresses the need by being a language that is primarily written with embossed paper that Braille readers can touch in order to receive a message. “Users can also write braille with the original slate and stylus or type it on a braille writer, such as a portable braille note-taker, or on a computer that prints with a braille embosser” [https://en.wikipedia.org/wiki/Braille].
 
