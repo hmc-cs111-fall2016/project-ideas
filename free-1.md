@@ -87,6 +87,7 @@ played:
 > g||pc|H3|pc|HT|pc|HK|pc|D4|pg||pc|CQ|pc|C7|pc|S9|pc|C8|pg||pc|DT|pc|DJ|pc|D7|p
 > c|D5|pg||pc|S2|pc|HQ|pc|C9|pc|S5|pg||pc|D8|pc|H8|pc|H9|pc|D6|pg||pc|S8|pc|SJ|p
 > c|H7|pc|CT|pg||pc|D9|pc|HJ|pc|H6|pc|D2|pg||
+
 I think this could be more readable to humans.  Also I have difficulty finding
 a way to process this data without writing something myself. It is nice that it
 writes down pretty much all the information available at the table.
