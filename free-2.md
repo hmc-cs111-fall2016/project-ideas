@@ -17,7 +17,8 @@ email with interesting content but a lot of times they get useless
 emails (these range from counting threads, to emails asking for rides from
 airports, and to ASHMC senate summary emails).
 
-As an example, 
+As an example, these are a series of emails sent to a certain dorm's chat
+list
 
 ![EDC emails](/images/emails.png)
 
