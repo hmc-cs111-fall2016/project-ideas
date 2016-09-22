@@ -12,10 +12,11 @@ them?_
 
 _My idea would help organize to do lists. Right now, people write to do 
 lists by what to do first, which is not always an easy way of thinking 
-about it and may cause people to forget tasks in another category or leave
-tasks half finished due to time constraints. Or people think of a to do 
-list by broad categories (by room, by class, etc.) butit's then hard to see
-the most efficient way of doing the tasks._
+about it and may cause people to forget tasks because they forgot
+about a certain category in their to do list. So, another way people think of
+a to do list by those broad categories. For instance, people organize cleaning
+by room or homework by class. However, it's then hard to see the most 
+efficient way of doing the tasks or even which tasks need to be done first._
 
 
 ### Why a language?
@@ -109,12 +110,28 @@ new features would have to interface well with all the old features._
 ### Scope
 _How big an idea is this? How ambitious is this project?_
 
-_This is probably my biggest worry. I worry that this project may be too
-broad and trying to do too many things. However, even one part of this
-project may be interesting to implement._
+_This project has a rather large scope. Even starting with the best way to
+get all the tasks one person needs to get done such that the most important
+tasks are done first, the implementer needs to figure out how they want the
+language to look to the user. Once that's built, it's about how to add features
+to the language, which widens the scope immensly. Including multiple people
+into the to do list, figuring out how to optimize time based on a
+scheudle, and so many other features could be added based on what others
+think would be the most useful._
 
 
 ### Benefits and drawbacks
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
 
+_This may be a good project because the problem is very widespread to people who
+use to do lists. Additionally, this project is very extendable. The basics of the
+project would be a strong project, but there would also be a lot of space to 
+enhance it if there was enough time and desire._  
+_This may not be such a good project because I would be a user of this project.
+From the definition of this problem, I am heavily involved with some of the ways
+that it would be used. Although this may be good because I can see how it could
+be used, this may be a strong drawback. Instead of going and asking people for
+advice on how to make it more user friendly, I may be inclined to sit in my room
+and convince myself that it's "user friendly" because I can use it and I am a user,
+while it would not make sense to anyone but myself._
