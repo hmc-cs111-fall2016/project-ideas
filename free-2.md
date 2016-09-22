@@ -13,7 +13,7 @@ them?_
 
 The process of writing a program to solve a recursive solution efficiently
 (using a Dynamic Programming (DP) solution) requires a lot of boilerplate code
-and opportunity for simple errors to be introduced.  The individuals using 
+and opportunity for simple errors to be introduced.  The individuals using
 this language would be anyone who hopes to implement a solution to a recursive
 algorithm more efficiently.
 
@@ -21,6 +21,9 @@ Hopefully their experience would be transformed from thinking about how
 to best implement their dynamic programming solution without a stack overflow,
 to one of simply thinking about the nature of the recurrence, expressing that,
 and letting the language transform it into an effective implementation.
+
+The most likely errors would be those from an ill formed recursive
+expression, for which we would rely on the host language's error handling).
 
 ### Why a language?
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
@@ -132,7 +135,7 @@ abstracting the generalized notion of a dynamic programming solution, and then
 perhaps some research into pretty printing the outputs.
 
 ### Benefits and drawbacks
-_Why might this be a good idea for a project? Why might this not be a good idea 
+_Why might this be a good idea for a project? Why might this not be a good idea
 project?_
 
 This might be a good idea since I find myself excited about the prospect of

@@ -69,6 +69,10 @@ the rules that can produce it so that the story, while chaotic, does not just
 read as a pseudorandom hodgepodge of events, but rather a silly and loosely
 connected thread of continuity.
 
+Errors would result on the behalf of the user following with an incorrect
+card, which they would either discover on their own, or not.  Either way
+is acceptable.
+
 ### Expressiveness
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_

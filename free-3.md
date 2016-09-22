@@ -57,6 +57,11 @@ queries the state of the computer (if conditional jobs were present in
 the input program) to see if a new process needed to be created for
 the given job.
 
+Errors might involve failure to start at a specified time, due to
+not having processor time at that moment, or any number of file system or
+operating system failures.  In any case, the error should probably be
+best logged to a file *and* reported to the user via a shell notification.
+
 ### Expressiveness
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_

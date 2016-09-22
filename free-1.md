@@ -91,7 +91,9 @@ a custom combination functions from modular pieces.)
 
 It should also provide a color-coded graphical picture of the schedule
 information the user input, so they can verify that the information they
-provided was parsed correctly (and entered correctly).
+provided was parsed correctly (and entered correctly).  This would be the
+primary mechanism for reporting semantic errors.  Syntax and failure to
+parse errors would be reported on a best guess line number basis.
 
 ### Expressiveness
 _What should be easy to do in this language? What should be possible, but
