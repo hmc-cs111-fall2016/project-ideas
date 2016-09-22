@@ -48,27 +48,13 @@ _How might the user interact with the language?_
 
 I’m envisioning for the user to look up chord tabs such as the one below:
 
-D                                                     A 
-You’re on the phone with your girlfriend, she’s upset
-                                                             Em 
-She’s going off about something that you said
-        	                                             G 
-‘Cause she doesn’t get your humor like I do
-D                                                     A 
-I’m in the room it’s a typical Tuesday night
-                                                     	         Em
-I’m listening to the kind of music she doesn’t like
-                                                      G 
-And she’ll never know your story like I do
-
+http://www.heartwoodguitar.com/chords/swift-taylor-you-belong-with-me/
 
 Given that the duration of each chord changes (for example, the D Major chord is played during the lyrics “You’re on the phone with your girlfriend, she’s upset” and then transitions to the A Major chord), I want the user to use an excel spreadsheet, write down the time signature and tempo of the song, and treat each excel cell as one beat. Then the user would input the name of the chord, each time it changes, onto the excel spreadsheet, taking into account the fact that each excel spreadsheet represents one beat. The user will then save the excel file as in some format that my language will be able to parse, and my language will communicate with a software such as MuseScore to produce the sheet music dictation of the chords and their respective lengths. I also want to be able to somehow incorporate lyrics so that onto the sheet music so that the user can sing along with the chords that are now dictated on a musical staff. I think this is the right way to interact with the problem domain, because I want to make sure that using this program requires as little musical theory knowledge as possible.
 
 _What does programming look like? Why is this the right way to interact with the problem domain?_ 
 
-
-
-
+Programming involves inputting chord names into an excel spreadsheet, where each cell represents one beat of the song. This is the right way to interact with the problem domain because people can visually represent the duration of the chords and people can simply copy and paste the chord names they want, either from existing guitar chords sheets or chords that they themselves want to incorporate into the song. Using this program won't require much music theory knowledge!
 
 
 ### Operation (semantics)
