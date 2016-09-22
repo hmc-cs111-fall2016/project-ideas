@@ -92,7 +92,7 @@ I don't think there will be a lot of language decisions -- the input I need only
 ### Scope
 _How big an idea is this? How ambitious is this project?_
 
-I don't think this idea is too ambitious -- it's very easy to determine what keys are pressed and for how long they are pressed, and the time that the key is pressed can be compared to the designated BPM and key signature to determine the duration of the note relative to the BPM (tempo). The tricky part would be to translate that into a visual representation of the chord. 
+I don't think this idea is too ambitious -- it's very easy to determine what keys are pressed and for how long they are pressed, and the time that the key is pressed can be compared to the designated BPM and key signature to determine the duration of the note relative to the BPM (tempo). The tricky part would be to translate that into a visual representation of the notes.
 
 ### Benefits and drawbacks
 _Why might this be a good idea for a project? Why might this not be a good idea 
