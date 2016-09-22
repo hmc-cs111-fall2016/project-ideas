@@ -103,4 +103,7 @@ design their own lights with ease.
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
 
-
+I believe this project is very domain-specific, which is a sign that it's a good
+idea for a project. However, it's hard to envision in what way/how the DSL would
+allow the users to see their design digitally as that would involve arranging 
+some pictures such as shapes of the lights and so on.
