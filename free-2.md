@@ -145,5 +145,6 @@ our table, and it would be ideal if the user didn't have to provide it twice
 (once in the recursive expression, once for the DSL).
 
 It might not be a good idea if there isn't enough language design in the
-project.
+project.  The scope might be too narrow, addressed only toward solving a
+very specific class of problems.
 
