@@ -16,7 +16,7 @@ Many people who love music and want to compose music use a software like MuseSco
 
 _What would their experience be like if you could help them?_
 
-Right now, users have to either purchase a special keyboard, or suffer through inputting very few notes at a time onto MuseScore. 
+Right now, users have to either purchase a special keyboard, or suffer through inputting very few notes at a time onto MuseScore. My DSL could greatly improve the efficiency of writing music.
  
 ### Why a language?
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
@@ -27,11 +27,11 @@ A DSL would be appropriate for my users because what they lack is the translatio
 
 _What excites you about this idea?_
 
-I really enjoy arranging music, and would really enjoy a tool that makes the process easier! 
+I really enjoy arranging music, and would really enjoy a tool that makes the process more efficient! 
 
 _How did you come up with it?_
 
-I came up with it one day when I was really frustrated with the painstaking process of translating musical thoughts into sheet music, and I did an angry keyboard smash. Then, I realized how cool it would be if I could tell Musecore the tempo of my song, and then press the computer keyboard keys that correspond to the notes I wanted to dictate. Ideally, the composition software would also compare how long I hold the key down (lets say 700 milliseconds) to the BPM (tempo) of the tempo I determined, to notate not only the notes themselves but the duration of the notes.
+I came up with it one day when I was really frustrated with the painstaking process of translating musical thoughts into sheet music via MuseScore, and I did an angry keyboard smash. Then, I realized how cool it would be if I could tell Musecore the tempo of my song, and then press the computer keyboard keys that correspond to the notes I wanted to dictate. Ideally, the composition software would also compare how long I hold the key down (lets say 700 milliseconds) to the BPM (tempo) of the tempo I determined, to notate not only the notes themselves but the duration of the notes.
 
 ### Domain
 Music Composition 
@@ -40,7 +40,7 @@ Music Composition
 ### Interface (syntax)
 _How might the user interact with the language?_
 
-The language will provide a text input box that allows someone to type in the beats per measure and the tempo of the song. For example, the user could say that the song was in 4/4 time, at 96BPM per quarter note. Then, the user fill in another box describing the key signature of the peice. Then, a new Musescore file would be created, and prompt the user to decide how many voices/instruments were going to be involved in the piece. The user chooses one of the instruments, starts the metronome, and presses the keyboard keys representing the names of the notes he wants to notate, holding down the key presses for a long amount of time if the note was longer, and a short amount of time if the note was shorter. 
+The language will provide a text input box that allows someone to type in the tempo in BPM, time signature, key, and clef. For example, the user could say that the song was in 96BPM per quarter note, in 4/4 time, in G Major, and in treble clef. Then, a new MuseScore file would be created, and prompt the user to decide how many voices/instruments were going to be involved in the piece. The user chooses one of the instruments, starts the metronome, and presses the keyboard keys representing the names of the notes he wants to notate, holding down the key presses for a long amount of time if the note was longer, and a short amount of time if the note was shorter. 
 
 _What does programming look like? Why is this the right way to interact with the problem domain?_ 
 
@@ -50,7 +50,7 @@ I described a bit above about how programming would look like. I think this is t
 ### Operation (semantics)
 _What might happen when a program runs? How does a program interact with the user?_
 
-The program prommpts the user for details regarding certain features of the music, including the clefs, key signature, time signature, tempo, etc. Then, as the user is pressing down the keys, the sheet music shows a faint image of the notes in the score. If the note was a half note and the time signature was 4/4, you would see the note appear as a quarter note at first, and then after you've held it down too long to be considered a quarter note, it turns into a half note on the score, contuining to update the value of the note according to the pre-set time signature and BPM until the user releases that particular key.
+The program prommpts the user for details regarding certain features of the music, including the clefs, key signature, time signature, tempo, etc. Then, as the user is pressing down the keys, the sheet music shows a faint image of the notes in the score. If the note was a half note (2 quarter notes) and the time signature was 4/4, the user would see the note appear as a quarter note at first, and then after he/she held it down too long to be considered a quarter note, it turns into a half note on the score, contuining to update the value of the note according to the pre-set time signature and BPM until the user releases that particular key.
 
 _What kinds of errors might occur, and how might they be communicated to the user?_
 
@@ -67,7 +67,7 @@ It would be hard to do more difficult rhythms using computer keyboard keystrokes
 
 _What should be impossible or very difficult?_
 
-Honestly, this language seems very limited, and can only convey the name of the note and the duration of the note. It cannot express, for example, the dynamics of the note.
+Honestly, this language seems very limited, and can only convey the name of the note and the duration of the note. It cannot express, for example, the dynamics of the note. However, this DSL is only meant to be an addition to what existing composition software can accomplish, so a user can very easily make adjustments after using my DSL.
 
 ### Related work
 _Are there any other DSLs in this domain? If not, describe how you know there
