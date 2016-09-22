@@ -101,6 +101,15 @@ aren't and conjecture why not. If so, describe them and provide links. How well
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
 
+I couldn't find any DSLs that allows the user to determine the search parameters
+as well as inputing information to search. I looked at a lot of different music
+identification search engines, such as [Musixmatch](https://www.musixmatch.com/) and [SpotSearch](http://www.spotsearch.se/), 
+and I also looked at song identication apps, like [Shazam](http://www.shazam.com/) and [SoundHound](http://soundhound.com/),
+but they all require specific search inputs. Perhaps this suggests that it 
+isn't really feasible to determine a song without very specific search parameters,
+and that if the information is organized to loosely than the search outputs will
+be too random. Perhaps the limitation is also the sort of music data sets that one 
+has access to. 
 
 
 ## The Project
@@ -114,12 +123,34 @@ making language design decisions), as opposed to "systems" aspects of the
 project (e.g., implementing a complicated semantics that doesn't require a lot
 of language design)?_
 
+I realize that the language design aspect of this project would probably be minimal,
+and it's an indea that I would need to reconsider or specifiy better to act like a
+DSL. The project is highly dependent on the input, and it gives the user perhaps too
+much flexibility in determining what inputs they want to use. So there would definitely
+need to be more structure and a sort of paradigm that dictates what kinds of search
+parameters and inputs the user can choose from. The "systems" aspect would take up the
+bulk of the time, because it would possibly require some sort of algorithm design and
+text parsing in order to identify songs. It would also require significant knowledge
+of how to use different APIs that contain song or lyric databases.
+
 
 ### Scope
 _How big an idea is this? How ambitious is this project?_
+
+Reflecting on this idea, I realize that it was easy to imagine it but seems very
+impractical to execute. After thinking about this idea for a bit, I realize that
+it is too ambitious because of all of the data I would need access to and a knowledge 
+of how to sort through and categorize this data.
 
 
 ### Benefits and drawbacks
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
-Is it basically a glorified search engine?
+In retrospect, I don't think this is a good idea for a project because it doesn't
+seem like it will function very well as a programming language. Rather, it might 
+just act like a glorified search engine, and executing this would not be the point 
+of this project, which is to engage with the mechanics of language design. It initally
+seemed like a good idea because I was very excited about having a useful music
+application and being able to work withthe Spotify and Genius APIs, and maybe I can
+extract more project ideas from thinking about this idea.
+
