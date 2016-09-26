@@ -82,7 +82,7 @@ _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_
 
 Calculating numbers and not changing the number on the abacus until someone
-touches it shoudl be easy. More complex arithmetic/mathematical operations like
+touches it should be easy. More complex arithmetic/mathematical operations like
 exponents should be possible (there are tricks to doing them), but they are very
 difficult for the common user. Non-mathematical things should be impossible or
 very difficult to do.
